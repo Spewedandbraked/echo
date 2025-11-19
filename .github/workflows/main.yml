@@ -12,6 +12,6 @@ jobs:
     - id: Build-Deploy-Vue
       uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
       with:
-        username: '{{Spewedandbraked}}'
-        reponame: '{{echo}}'
+        username: 'Spewedandbraked'
+        reponame: 'echo'
         token: ${{ secrets.GITHUB_TOKEN }}
